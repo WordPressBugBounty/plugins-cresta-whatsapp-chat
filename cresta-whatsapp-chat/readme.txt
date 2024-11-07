@@ -3,8 +3,8 @@ Contributors: CrestaProject
 Donate link: https://crestaproject.com/downloads/cresta-help-chat/
 Tags: whatsapp, chat, whatsapp chat, help desk, whatsapp button, support
 Requires at least: 4.2
-Tested up to: 6.6
-Stable tag: 1.3.4
+Tested up to: 6.7
+Stable tag: 1.3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -66,6 +66,9 @@ Yes, every user of your website will be able to see the number of WhatsApp you a
 5. Cresta Help Chat open shortcode button
 
 == Changelog ==
+= 1.3.5 =
+* Added compatibility to WordPress 6.7
+
 = 1.3.4 =
 * Added compatibility to WordPress 6.6
 
