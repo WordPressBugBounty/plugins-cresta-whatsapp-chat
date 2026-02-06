@@ -3,7 +3,7 @@
  * Plugin Name: Cresta Help Chat
  * Plugin URI: https://crestaproject.com/downloads/cresta-help-chat/
  * Description: <strong>*** <a href="https://crestaproject.com/downloads/cresta-help-chat/?utm_source=plugin_whatsapp&utm_medium=description_meta" target="_blank">Get Cresta Help Chat PRO</a> ***</strong> Allow your users and customers to contact you via WhatsApp with a single click.
- * Version: 1.3.6
+ * Version: 1.3.7
  * Author: CrestaProject - Rizzo Andrea
  * Author URI: https://crestaproject.com
  * Domain Path: /languages
@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
  
-define( 'CRESTA_WHATSAPP_CHAT_PLUGIN_VERSION', '1.3.6' );
+define( 'CRESTA_WHATSAPP_CHAT_PLUGIN_VERSION', '1.3.7' );
 add_action('admin_menu', 'cresta_whatsapp_chat_menu');
 add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'cresta_whatsapp_chat_setting_link' );
 add_filter('plugin_row_meta', 'cresta_whatsapp_chat_meta_links', 10 , 2 );
